@@ -13,8 +13,8 @@ section {
 .running {
 	position: absolute;
 	z-index: -1;
-	filter: grayscale(70%);
-	opacity: 0.5;
+	filter: grayscale(90%);
+	opacity: 0.6;
 }
 .container {
 	/*background: url("http://www.supracer.com/wp-content/uploads/2014/06/The-Race.jpg");*/

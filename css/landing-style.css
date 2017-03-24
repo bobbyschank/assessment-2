@@ -1,0 +1,59 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	background-color: #72cbff;
+}
+header {
+	color: #ffffff;
+	background-color: #3d4591;
+	height: 80px;
+}
+main {
+	background-color: #72cbff;
+	clear: both;
+	text-align: center;
+}
+span{
+	
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+	position: relative;
+	top: 50%;
+}
+.left, .right {
+	display: block;
+	height: 100%;
+	margin: auto;
+	font-size: 26px;
+}
+.seinfeld-logo {
+	float: left;
+	height: 50px;
+	filter: grayscale(100%);
+	margin: auto 0;
+}
+.description {
+
+	color: white;
+	width: 300px;
+	font-size: 34px;
+	margin: 30px auto;
+}
+.play-now {
+	border-radius: 6px;
+	text-align: center;
+	background-color: #ffaf71;
+	padding: 14px;
+	color: #ffffff;
+	margin: 14px;
+	width: 190px;
+	margin: 10px auto;
+}
+.statue {
+	width: 100%;
+	max-width: 850px;
+}
