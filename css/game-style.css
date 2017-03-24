@@ -1,0 +1,16 @@
+.guy {
+	display: inline;
+}
+#duncan {
+	background-color: yellow;
+	position: relative;
+	left: 20px;
+
+}
+#jerry{
+	background-color: red;
+	position: relative;
+	left: 20px;
+	color: purple;
+
+}
