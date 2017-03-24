@@ -33,7 +33,7 @@ function Player(name, winMessage) {
 }
 
 let jerryPlayer = new Player("Jerry", "Jerry Wins! Yessss!");
-let duncanPlayer = new Player("Duncan", "You win this time Duncan.");
+let duncanPlayer = new Player("Duncan", "Ok Duncan, you win this time.");
 
 jerryButton.addEventListener("click", function(){
 	console.log('RUN JERRY!!!!');
