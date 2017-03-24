@@ -1,16 +1,56 @@
+* {
+	border-radius: 10px;
+	color: white;
+}
+body {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+section {
+	margin-top: 150px;
+}
+.running {
+	position: absolute;
+	z-index: -1;
+	filter: grayscale(70%);
+	opacity: 0.5;
+}
+.container {
+	/*background: url("http://www.supracer.com/wp-content/uploads/2014/06/The-Race.jpg");*/
+	display: inline-block;
+	height: 600px;
+}
 .guy {
-	display: inline;
+	width: 60px;
+}
+.stride {
+	text-align: center;
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+}
+.strideCount {
+	font-size: 80px;
 }
 #duncan {
 	background-color: yellow;
 	position: relative;
-	left: 20px;
+	left: 0;
+	width: 50px;
 
 }
 #jerry{
-	background-color: red;
+	background-color: lightblue;
 	position: relative;
-	left: 20px;
+	left: 0;
 	color: purple;
 
+}
+#jerryButton {
+	margin: 10px auto;
+	display: block;
+	padding: 20px;
+	font-size: 20px;
+	background-color: lightblue;
 }
