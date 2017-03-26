@@ -17,6 +17,8 @@ function Player(name, winMessage) {
 	this.position = 0;
 	this.won = false;
 	this.winMessage = winMessage;
+	this.element = document.getElementById(name);
+	console.log(this.element);
 	this.step = function() {
 		console.log("STEP");
 		let stride = randomGenerator();
