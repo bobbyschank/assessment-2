@@ -85,3 +85,14 @@ section {
 	font-size: 20px;
 	background-color: #A072EA;
 }
+@media (max-width: 768px) {
+	.container {
+		width: 600px;
+	}
+	.header {
+		width: 600px;
+	}
+	.running {
+		width: 600px;
+	}
+}
