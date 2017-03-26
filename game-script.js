@@ -26,7 +26,7 @@ function Player(name, winMessage) {
 		document.getElementById(this.id).style.left = this.position + "px";
 		document.getElementById(this.id + "Stride").textContent = stride;
 		console.log(this.winMessage);
-		if (this.position > 500) {
+		if (this.position > 767) {
 			this.won = true;
 			alert(this.winMessage);
 			location.reload();
@@ -44,5 +44,5 @@ jerryButton.addEventListener("click", function(){
 });
 
 function randomGenerator() {
-  	return Math.round(Math.random() * (19)) + 1;
+  	return Math.round(Math.random() * (29)) + 1;
 }
